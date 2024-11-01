@@ -1,0 +1,201 @@
+<?php
+/*
+ This file is part of the wp-championship plugin for wordpress */
+/*
+  Copyright 2014-2020  Hans Matzen  (email : webmaster at tuxlog.de)
+
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+*/
+
+//
+// SOAP interface for use with OpenLigaDB
+//
+function do_soapcall( $endpoint, $params ) {
+
+	$options = array(
+		'encoding'              => 'UTF-8',
+		'connection_timeout'    => 5,
+		'exceptions'            => 1,
+	);
+
+	$location = 'http://www.OpenLigaDB.de/Webservices/Sportsdata.asmx?WSDL';
+
+	try {
+		$client = new SoapClient( $location, $options );
+		$response = $client->{$endpoint}( $params );
+		// $response = $client->GetAvailSports();
+	} catch ( SoapFault $e ) {
+		die( $e->faultcode . ': ' . $e->faultstring );
+	} catch ( Exception $e ) {
+		die( $e->getCode() . ': ' . $e->getMessage() );
+	}
+
+	return $response;
+}
+
+
+function wpc_openligadbimport_cb() {
+	// get sql object
+	global $wpdb;
+	require( dirname( __FILE__ ) . '/globals.php' );
+
+	if ( ! empty( $_POST ) ) {
+		if ( ! isset( $_POST['wpc_nonce_oldbimport'] ) ) {
+			die( "<br><br>Looks like you didn't send any credentials. Please reload the page. " );
+		}
+		if ( ! wp_verify_nonce( $_POST['wpc_nonce_oldbimport'], 'wpc_nonce_oldbimport' ) ) {
+			die( "<br><br>Looks like you didn't send any credentials. Please reload the page. " );
+		}
+
+		$league = '';
+
+		if ( array_key_exists( 'league', $_POST ) ) {
+			$league = esc_attr( $_POST['league'] );
+			$leagueShortcut = substr( $league, 0, strpos( $league, ';' ) );
+			$leagueSaison = substr( $league, strpos( $league, ';' ) + 1 );
+		}
+
+		$csv_delall = false;
+		if ( array_key_exists( 'csv_delall', $_POST ) ) {
+			$csv_delall = ( esc_attr( $_POST['csv_delall'] ) == 'true' ? true : false );
+		}
+
+		// check if current data should be deleted
+		if ( $csv_delall === true ) {
+			$sql = "truncate table $cs_team;"; // this also resets the auto increment counter
+			$result = $wpdb->query( $sql );
+
+			$sql = "truncate table $cs_match;";
+			$result = $wpdb->query( $sql );
+			echo __( 'Data deleted.', 'wp-championship' ) . '<br />';
+		}
+
+		// hole OpenLigaDB Daten
+		$p = new stdClass();
+		$p->leagueSaison = $leagueSaison;
+		$p->leagueShortcut = $leagueShortcut;
+
+		// hole OpenLigaDB Teams
+		$resteam = do_soapcall( 'GetTeamsByLeagueSaison', $p );
+		// hole OpenLigaDB Matches
+		$resmatch = do_soapcall( 'GetMatchdataByLeagueSaison', $p );
+
+		// insert new data
+		foreach ( $resteam->GetTeamsByLeagueSaisonResult->Team as $t ) {
+			$sql = sprintf(
+				"insert into %s (tid,name,shortname,icon,groupid,qualified,penalty) values (%d,'%s', '', '%s','A',0,0);",
+				$cs_team,
+				intval( $t->teamID ),
+				esc_attr( $t->teamName ),
+				property_exists( $t, 'teamIconURL' ) ? sanitize_url( $t->teamIconURL ) : ''
+			);
+			$result = $wpdb->query( $sql );
+			if ( $result ) {
+				echo __( 'Teamrecord inserted successfully', 'wp-championship' ) . '.<br />';
+			} else {
+				echo __( 'Database error, record not inserted.', 'wp-championship' ) . '<br />';
+			}
+		}
+
+		foreach ( $resmatch->GetMatchdataByLeagueSaisonResult->Matchdata as $m ) {
+			$sql = sprintf(
+				"insert into %s (mid,round,spieltag,tid1,tid2,location,matchtime,result1,result2,winner,ptid1,ptid2) 
+                values (%d,'V', %d, %d, %d, '','%s',-1,-1,-1,-1,-1);",
+				$cs_match,
+				intval( $m->matchID ),
+				intval( $m->groupOrderID ),
+				intval( $m->idTeam1 ),
+				intval( $m->idTeam2 ),
+				esc_attr( $m->matchDateTime )
+			);
+
+			$result = $wpdb->query( $sql );
+			if ( $result ) {
+				echo __( 'Matchrecord inserted successfully', 'wp-championship' ) . '.<br />';
+			} else {
+				echo __( 'Database error, record not inserted.', 'wp-championship' ) . '<br />';
+			}
+		}
+
+		// you must end here to stop the displaying of the html below
+		exit( 0 );
+	}
+
+	// import formular aufbauen ===================================================
+
+		$out = '';
+	// add log area style
+	$out .= '<style>#message {margin:20px; padding:20px; background:#cccccc; color:#cc0000;}</style>';
+	$out .= '<div id="importform" class="wrap" >';
+	$out .= '<h2>wp-championship ' . __( 'OpenLigaDB-Import', 'wp-championship' ) . '</h2>';
+	// add nonce
+	$out .= '<input name="wpc_nonce_oldbimport" id="wpc_nonce_oldbimport" type="hidden" value="' . wp_create_nonce( 'wpc_nonce_oldbimport' ) . '" />';
+
+	$out .= '<p><strong>' . __( 'This feature is experimental. Please backup your match and team data before trying OpenLigaImport.', 'wp-championship' ) . '</strong></p>';
+
+	$out .= '<label for="ol_sport">' . __( 'Select sport', 'wp-championship' ) . '&nbsp;&nbsp;&nbsp;:</label>' . "\n";
+	// get sportarten
+	$res = do_soapcall( 'GetAvailSports', array() );
+	$sportarten = $res->GetAvailSportsResult->Sport;
+	$out .= '<select name="ol_sport" id="ol_sport" onclick="ol_update_league()">' . "\n";
+	$out .= '<option value="-1">' . __( 'Select sport', 'wp-championship' ) . '...</option>' . "\n";
+	foreach ( $sportarten as $spa ) {
+		$out .= '<option value="' . $spa->sportsID . '">' . $spa->sportsName . '</option>' . "\n";
+	}
+	$out .= "</select><br/><br/>\n";
+
+	$out .= '<label for="ol_league">' . __( 'Select league', 'wp-championship' ) . ':</label>' . "\n";
+	$out .= '<select name="ol_league" id="ol_league" >' . "\n";
+	$out .= '<option value="-1">' . __( 'Select league', 'wp-championship' ) . '...</option>' . "\n";
+	$out .= "</select><br/><br/>\n";
+
+	// import mit oder ohne überschreiben
+	$out .= '<label for="csvdelall">' . __( 'Delete data before import', 'wp-championship' ) . ':</label>' . "\n";
+	$out .= '<input name="csvdelall" id="csvdelall" type="checkbox" value="1" />' . "\n";
+	// add submit button to form
+	$href = site_url( 'wp-admin' ) . '/admin.php?page=cs_admin.php';
+	$out .= '<p class="submit">';
+	$out .= '<input type="submit" name="startimport" id="startimport" value="' . __( 'Start import', 'wp-championship' ) . ' &raquo;" onclick="submit_this(\'openligadbimport\')" />';
+	$out .= '&nbsp;&nbsp;&nbsp;';
+	$out .= '<input type="submit" name="cancelimport" id="cancelimport" value="' . __( 'Close', 'wp-championship' ) . '" onclick="tb_remove();" /></p>';
+	$out .= '<hr />' . "\n";
+	// div container fuer das verarbeitungs log
+	$out .= '<div id="message">' . __( 'Import log', 'wp-championship' ) . '</div>';
+	$out .= "</div>\n";
+	echo $out;
+	wp_die();
+}
+
+//
+// Holt die zur Sportart vorhandenen Ligen von OpenLigaDB und gibt sie als json zurück (Aufruf über ajax)
+//
+function wpc_openligadb_getleagues() {
+	$out = array();
+	if ( ! empty( $_POST ) ) {
+		$sport = '';
+
+		if ( array_key_exists( 'sport', $_POST ) ) {
+			$sport = esc_attr( $_POST['sport'] );
+
+			// get ligen
+			$p = new stdClass();
+			$p->sportID = $sport;
+			$res = do_soapcall( 'GetAvailLeaguesBySports', $p );
+			$out = $res->GetAvailLeaguesBySportsResult->League;
+		}
+	}
+	echo json_encode( $out );
+	wp_die();
+}

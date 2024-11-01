@@ -1,0 +1,228 @@
+/* reset ie defaults */
+* { margin:0; padding:0; aborder:0;}
+
+/* team icon style */
+img.csicon
+{
+	width: 25px;
+	padding: 0px;
+}
+
+input.cs_inputerror
+{
+	/*background-color: red;*/
+	background: none repeat scroll 0 0 red;
+	color: black;
+}
+
+/* submit buttons */
+input.wpcs-button {
+	border-width: 2px ;
+	border-style: outset;
+	border-color: #DDDBDE;
+}
+
+/* style for tablesorter */
+table.tablesorter {
+	font-size: 9px;
+	background-color: #eeeeee;
+	border: 1px solid #000;
+	table-layout: auto;
+}
+
+table.tablesorter th {
+	border: 1px solid #000;
+	padding: 2px;
+	padding-left: 25px;
+	padding-right: 2px;
+	white-space:nowrap ;
+}
+
+table.tablesorter td {
+	 border: 1px solid #000;
+	 font-size: 11px;
+	 /*text-align: center;*/
+	 padding: 2px;
+}
+/*
+table.tablesorter .even {
+	background-color: #3D3D3D;
+}
+table.tablesorter .odd {
+	background-color: #6E6E6E;
+}
+*/
+
+table.tablesorter .header {
+	background: url(bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: auto;
+}
+
+table.tablesorter .headerSortUp {
+	background-image: url(asc.png);
+	background-repeat: no-repeat;
+}
+table.tablesorter .headerSortDown {
+	background-image: url(desc.png);
+	background-repeat: no-repeat;
+}
+
+#content input.cs_entry {
+	font-size: 11px;
+	max-width: 20px;
+}
+
+h2.cs_stathead {
+	font-size: 18px;
+	font-weight: bold;
+	background-image: url(arrow_down.jpg);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+h2.cs_grouphead {
+	font-size: 16px;
+	font-weight: bold;
+	background-image: url(arrow_down.jpg);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+h2.divclose {
+	background-image: url(arrow_right.jpg);
+	background-repeat: no-repeat;
+}
+
+span.topButtonA {
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration:underline;
+}
+
+/* for floating menu */
+#WPCSfloatMenu {
+	position:absolute;
+	top:240px;
+	left:50%;
+	margin-left:-600px;
+	width:150px;
+}
+
+#WPCSfloatMenu ul {
+	margin-bottom:20px;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+/* override kubricks raquo setting */
+#WPCSfloatMenu ul li:before {
+	content: "";
+}
+
+#WPCSfloatMenu ul li a {
+	display:block;
+	border:1px solid #999;
+	background-color:#222;
+	border-left:4px solid #999;
+	text-decoration:none;
+	color:#fff;
+	padding:5px 5px 5px 15px;
+}
+
+#WPCSfloatMenu ul li a:hover {
+	color:#0066cc;
+	background-color:#ffffff;
+	border-color:#0066cc;
+}
+
+/* styles for widget */
+table.widgettable {
+	border-collapse:separate;
+	border-spacing:12px;
+}
+
+div.tabsbody {
+	background-color: #E9E9E9;
+	border-color: #CCCCCC #CCCCCC #E9E9E9;
+	color: #333333;
+}
+
+li.ui-state-active {
+	background-color: #E9E9E9;
+	border-color: #CCCCCC #CCCCCC #E9E9E9;
+	color: #333333;
+}
+/*
+background-color: #F1F1F1;
+	border-color: #DFDFDF #DFDFDF #CCCCCC;
+	color: #999999;
+	*/
+li.ui-state-default {
+
+	-moz-border-radius: 3px 3px 0 0;
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+	float: right;
+	height: 18px;
+	margin: 5px 5px 0 0;
+	padding: 4px 5px 2px;
+}
+
+th.wpc-label {
+	width:30%;
+	text-align:left;
+}
+
+.tooltip-red
+{
+	background-color: #FCE5CE;
+	/*color: #F38F2A; */
+	color: #000000;
+	padding:10px 10px 10px 10px;
+	font-weight:bold;
+	z-index:100;
+}
+
+
+/* responsive table layout */
+@media only screen and (max-width: 800px) {
+#flip-scroll .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+#flip-scroll * html .cf {}
+#flip-scroll *:first-child+html .cf { }
+#flip-scroll table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+
+#flip-scroll th,
+#flip-scroll td { margin: 0; vertical-align: top; }
+#flip-scroll th { text-align: left; }
+#flip-scroll table { display: block; position: relative; width: 100%; }
+#flip-scroll thead { display: none; float: left; }
+#flip-scroll tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+#flip-scroll thead tr { display: block; }
+#flip-scroll th { display: block; text-align: right; min-height: 2.25em; max-height: 8em;}
+#flip-scroll tbody tr { display: inline-block; vertical-align: top; }
+#flip-scroll td { display: block; min-height: 2.25em; text-align: left; max-height: 8em;}
+#flip-scroll td:nth-child(7) { display: block; min-height: 8em; text-align: left; max-height: 12em;}
+
+/* sort out borders */
+#flip-scroll th { border-bottom: 0; border-left: 0; }
+#flip-scroll td { border-left: 0; border-right: 0; border-bottom: 0; }
+#flip-scroll tbody tr { border-left: 1px solid #babcbf; }
+#flip-scroll th:last-child,
+#flip-scroll td:last-child { border-bottom: 1px solid #babcbf; }
+
+/* adopt layout */
+#flip-scroll .csicon {left: 2px; padding: 2px; width:25px; float:none;}
+table.tablesorter .header { padding-left: 20px; padding-right: 2px; min-width: 70px; font-size:11px;  min-height: 2.25em; max-height: 8em;}
+table.tablesorter .headerSortUp { background-image: url(asc.png); background-repeat: no-repeat;  min-height: 2.25em; max-height: 8em; }
+table.tablesorter .headerSortDown { background-image: url(desc.png); background-repeat: no-repeat;  min-height: 2.25em; max-height: 8em;}
+}

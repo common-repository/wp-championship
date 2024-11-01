@@ -1,0 +1,1466 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-championship\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-08 10:23+0200\n"
+"PO-Revision-Date: 2024-06-08 10:14+0200\n"
+"Last-Translator: tuxlog <webmaster@tuxlog.de>\n"
+"Language-Team: hans matzen <webmaster ät tuxlog dot de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: class-cs-widget-tippgroup.php:76
+msgid "N"
+msgstr "N"
+
+#: class-cs-widget-tippgroup.php:126 class-cs-widget-user.php:151
+#: class-cs-widget.php:152
+msgid "There are no game results yet."
+msgstr "Es sind noch keine Spielergebnisse vorhanden."
+
+#: class-cs-widget-tippgroup.php:187 class-cs-widget-user.php:214
+#: class-cs-widget.php:216
+msgid "Title"
+msgstr "Title"
+
+#: class-cs-widget-tippgroup.php:193 class-cs-widget-user.php:221
+#: class-cs-widget.php:222
+msgid "Show average?"
+msgstr "Durchschnitt anzeigen?"
+
+#: class-cs-widget-tippgroup.php:202 class-cs-widget-tippgroup.php:223
+#: class-cs-widget-tippgroup.php:251 class-cs-widget-user.php:228
+#: class-cs-widget-user.php:244 class-cs-widget-user.php:261
+#: class-cs-widget-user.php:278 class-cs-widget.php:231 class-cs-widget.php:252
+#: class-cs-widget.php:273 class-cs-widget.php:301
+msgid "Yes"
+msgstr "Ja"
+
+#: class-cs-widget-tippgroup.php:211 class-cs-widget-tippgroup.php:232
+#: class-cs-widget-tippgroup.php:260 class-cs-widget-user.php:235
+#: class-cs-widget-user.php:251 class-cs-widget-user.php:268
+#: class-cs-widget-user.php:285 class-cs-widget.php:240 class-cs-widget.php:261
+#: class-cs-widget.php:282 class-cs-widget.php:310
+msgid "No"
+msgstr "Nein"
+
+#: class-cs-widget-tippgroup.php:214 class-cs-widget-user.php:238
+#: class-cs-widget.php:243
+msgid "Number of tips?"
+msgstr "Anzahl der Tipps?"
+
+#: class-cs-widget-tippgroup.php:235
+msgid "Number of tip groups on display"
+msgstr "Anzahl der angezeigten Tippgruppen"
+
+#: class-cs-widget-tippgroup.php:242 class-cs-widget-user.php:271
+#: class-cs-widget.php:292
+msgid "Show link?"
+msgstr "Link anzeigen?"
+
+#: class-cs-widget-tippgroup.php:263 class-cs-widget-user.php:288
+#: class-cs-widget.php:313
+msgid "Link URL"
+msgstr "Link URL"
+
+#: class-cs-widget-tippgroup.php:270 class-cs-widget-user.php:295
+#: class-cs-widget.php:320
+msgid "Link label"
+msgstr "Link Bezeichnung"
+
+#: class-cs-widget-user.php:72 cs-groupstats.php:46 cs-matchstats.php:45
+#: cs-stats.php:49 cs-stats.php:120 cs-stats.php:218 cs-stats.php:349
+#: cs-stats.php:508 cs-stats.php:580 cs-stats.php:646 cs-stats.php:713
+#: cs-stats.php:880 cs-userstats.php:50 cs-usertipp.php:69
+msgid "You are not logged in."
+msgstr "Du bist nicht angemeldet."
+
+#: class-cs-widget-user.php:83
+msgid "You are not approved for the guessing game."
+msgstr "Du bist nicht für das Tippspiel eingetragen."
+
+#: class-cs-widget-user.php:116
+msgid "You are logged in as"
+msgstr "Du bist angemeldet als"
+
+#: class-cs-widget-user.php:117
+msgid "You are ranked"
+msgstr "Du bist auf Platz"
+
+#: class-cs-widget-user.php:117
+msgid "having"
+msgstr "und hast"
+
+#: class-cs-widget-user.php:118
+msgid "points"
+msgstr "Punkte"
+
+#: class-cs-widget-user.php:120
+msgid "trend"
+msgstr "Trend"
+
+#: class-cs-widget-user.php:132
+msgid "Your average is"
+msgstr "Dein Durchschnitt ist"
+
+#: class-cs-widget-user.php:138
+msgid "The number of your tips is"
+msgstr "Abgegebene Tipps"
+
+#: class-cs-widget-user.php:254 class-cs-widget.php:264
+msgid "Show tendency?"
+msgstr "Tendenz anzeigen?"
+
+#: class-cs-widget.php:78 cs-admin-team.php:213 cs-admin-team.php:270
+#: cs-admin-tippgroup.php:196 cs-admin-tippgroup.php:223 cs-admin-users.php:297
+msgid "Name"
+msgstr "Name"
+
+#: class-cs-widget.php:285
+msgid "Number of players on display"
+msgstr "Anzahl der angezeigten Mitspieler"
+
+#: class-wpc-xmlrpc.php:155 class-wpc-xmlrpc.php:180
+msgid "This statistic does not exist."
+msgstr "Diese Statistik gibt es nicht."
+
+#: class-wpc-xmlrpc.php:238 cs-stats.php:471 cs-stats.php:479
+msgid "All"
+msgstr "All"
+
+#: class-wpc-xmlrpc.php:325 class-wpc-xmlrpc.php:444 cs-admin-labels.php:207
+#: cs-admin-labels.php:253 cs-groupstats.php:71 cs-stats.php:755
+#: cs-userstats.php:114 cs-userstats.php:141 functions.php:708
+#: functions.php:885 functions.php:895 functions.php:1009 functions.php:1017
+msgid "Rank"
+msgstr "Platz"
+
+#: class-wpc-xmlrpc.php:327 class-wpc-xmlrpc.php:446 class-wpc-xmlrpc.php:682
+#: class-wpc-xmlrpc.php:786 cs-admin-labels.php:209 cs-admin-labels.php:255
+#: cs-admin-users.php:252 cs-admin-users.php:294 cs-groupstats.php:73
+#: cs-stats.php:288 cs-stats.php:466 cs-stats.php:909 cs-stats.php:1025
+#: cs-stats.php:1187 cs-stats.php:1493 cs-userstats.php:116
+#: cs-userstats.php:144 functions.php:886 functions.php:895
+#: wp-championship.php:221
+msgid "Player"
+msgstr "Mitspieler"
+
+#: class-wpc-xmlrpc.php:329 class-wpc-xmlrpc.php:448 cs-admin-labels.php:211
+#: cs-admin-labels.php:257 cs-admin-stats.php:73 cs-groupstats.php:75
+#: cs-stats.php:761 cs-userstats.php:118 cs-userstats.php:147 functions.php:887
+#: functions.php:895 functions.php:1011 functions.php:1017
+msgid "Score"
+msgstr "Punktestand"
+
+#: class-wpc-xmlrpc.php:331 class-wpc-xmlrpc.php:450 cs-admin-labels.php:213
+#: cs-admin-labels.php:259 cs-groupstats.php:77 cs-userstats.php:120
+#: cs-userstats.php:150 functions.php:889 functions.php:897
+msgid "Tendency"
+msgstr "Trend"
+
+#: class-wpc-xmlrpc.php:333 class-wpc-xmlrpc.php:452 cs-admin-labels.php:215
+#: cs-admin-labels.php:261 cs-groupstats.php:79 cs-stats.php:609
+#: cs-userstats.php:122 cs-userstats.php:153
+msgid "Team"
+msgstr "Mannschaft"
+
+#: class-wpc-xmlrpc.php:335 class-wpc-xmlrpc.php:454 cs-admin-export.php:173
+#: cs-admin-import.php:168 cs-admin-labels.php:217 cs-admin-labels.php:263
+#: cs-admin-match.php:255 cs-groupstats.php:81 cs-userstats.php:124
+#: cs-userstats.php:156
+msgid "Matches"
+msgstr "Spiele"
+
+#: class-wpc-xmlrpc.php:337 class-wpc-xmlrpc.php:456 cs-admin-labels.php:219
+#: cs-admin-labels.php:265 cs-groupstats.php:83 cs-userstats.php:126
+#: cs-userstats.php:159
+msgid "Wins"
+msgstr "Siege"
+
+#: class-wpc-xmlrpc.php:339 class-wpc-xmlrpc.php:458 cs-admin-labels.php:221
+#: cs-admin-labels.php:267 cs-groupstats.php:85 cs-userstats.php:128
+#: cs-userstats.php:162
+msgid "Draw"
+msgstr "Unentschieden"
+
+#: class-wpc-xmlrpc.php:341 class-wpc-xmlrpc.php:460 cs-admin-labels.php:223
+#: cs-admin-labels.php:269 cs-groupstats.php:87 cs-userstats.php:130
+#: cs-userstats.php:165
+msgid "Defeat"
+msgstr "Niederlagen"
+
+#: class-wpc-xmlrpc.php:343 class-wpc-xmlrpc.php:462 cs-admin-labels.php:225
+#: cs-admin-labels.php:271 cs-userstats.php:132 cs-userstats.php:168
+msgid "goals"
+msgstr "Tore"
+
+#: class-wpc-xmlrpc.php:345 class-wpc-xmlrpc.php:464 class-wpc-xmlrpc.php:682
+#: class-wpc-xmlrpc.php:880 cs-admin-labels.php:227 cs-admin-labels.php:273
+#: cs-groupstats.php:91 cs-stats.php:911 cs-stats.php:1025 cs-stats.php:1189
+#: cs-stats.php:1290 cs-userstats.php:134 cs-userstats.php:171
+#: cs-usertipp.php:650 cs-usertipp.php:739
+msgid "Points"
+msgstr "Punkte"
+
+#: class-wpc-xmlrpc.php:482 cs-admin-labels.php:306 cs-admin-labels.php:415
+#: cs-userstats.php:317 cs-usertipp.php:889 wp-championship.php:215
+msgid "Preliminary"
+msgstr "Vorrunde"
+
+#: class-wpc-xmlrpc.php:493 cs-admin-team.php:219 cs-admin-team.php:273
+#: cs-groupstats.php:121 cs-userstats.php:330 cs-usertipp.php:629
+msgid "Group"
+msgstr "Gruppe"
+
+#: class-wpc-xmlrpc.php:581 cs-admin-labels.php:306 cs-admin-labels.php:415
+#: cs-userstats.php:419 cs-usertipp.php:1061 wp-championship.php:218
+msgid "Finals"
+msgstr "Finalrunde"
+
+#: class-wpc-xmlrpc.php:584 cs-userstats.php:423 functions.php:706
+msgid "Matchno."
+msgstr "Spielnr."
+
+#: class-wpc-xmlrpc.php:586 class-wpc-xmlrpc.php:784 cs-matchstats.php:64
+#: cs-stats.php:1185 cs-stats.php:1416 cs-userstats.php:425 cs-usertipp.php:635
+msgid "match"
+msgstr "Begegnung"
+
+#: class-wpc-xmlrpc.php:588 cs-admin-finals.php:340 cs-admin-finals.php:366
+#: cs-admin-match.php:228 cs-admin-match.php:260 cs-userstats.php:427
+#: cs-usertipp.php:641
+msgid "Location"
+msgstr "Ort"
+
+#: class-wpc-xmlrpc.php:589 cs-userstats.php:428 cs-usertipp.php:644
+msgid "Date<br />Time"
+msgstr "Datum<br />Zeit"
+
+#: class-wpc-xmlrpc.php:590 class-wpc-xmlrpc.php:788 cs-matchstats.php:64
+#: cs-stats.php:1189 cs-stats.php:1416 cs-userstats.php:429
+msgid "Result"
+msgstr "Ergebnis"
+
+#: class-wpc-xmlrpc.php:788 cs-stats.php:1189 functions.php:1240
+#: functions.php:1247
+msgid "Tip"
+msgstr "Tipp"
+
+#: class-wpc-xmlrpc.php:873 cs-stats.php:1283
+msgid "Username"
+msgstr "Benutzername"
+
+#: cs-admin-export.php:86
+msgid "'TeamID','Name','Shortname','Icon','GroupID','Qualified','Penalty'\n"
+msgstr "'TeamID','Name','Kurzname','Wappen','GruppenID','Qualifiziert','Strafpunkte'\n"
+
+#: cs-admin-export.php:106
+msgid "'MatchID','Round','Matchday','TeamID1','TeamID2','Location','DateTime','Result1','Result2','Winner','origTeamID1','origTeamID2'\n"
+msgstr "'MatchID','Runde','Spieltag','TeamID1','TeamID2','Ort','DatumZeit','Ergebnis1','Ergebnis2','Gewinner','origTeamID1','origTeamID2'\n"
+
+#: cs-admin-export.php:167
+msgid "Export"
+msgstr "Export"
+
+#: cs-admin-export.php:170
+msgid "Select data to export"
+msgstr "Datenexport für"
+
+#: cs-admin-export.php:172 cs-admin-import.php:167 cs-admin-team.php:267
+#: wp-championship.php:211
+msgid "Teams"
+msgstr "Mannschaften"
+
+#: cs-admin-export.php:176
+msgid "Output column names"
+msgstr "Feldnamen in erster Zeile ausgeben"
+
+#: cs-admin-export.php:179
+msgid "Download data as CSV-File"
+msgstr "Daten als csv Datei herunterladen"
+
+#: cs-admin-export.php:184
+msgid "Start export"
+msgstr "Export starten"
+
+#: cs-admin-export.php:186 cs-admin-import.php:197
+#: cs-admin-openligadbimport.php:174
+msgid "Close"
+msgstr "Schliessen"
+
+#: cs-admin-export.php:188
+msgid ""
+"You can mark the csv-export with Ctrl-a, copy it with Ctrl-c and paste it to "
+"your favorite editor or spreadsheet with Ctrl-v."
+msgstr ""
+"Mit STRG+a kann der CSV-Export markiert, mit STRG+c kopiert und mit STRG+v "
+"in einem Tabellenblatt (z.B. LibreOffice) oder Editor eingefügt werden."
+
+#: cs-admin-finals.php:83
+msgid "Please enter time and date of the match (e.g. 2010-06-21 18:00:00)."
+msgstr ""
+"Bitte gib Datum und Uhrzeit der Begegnung ein (z.B. 2010-06-21 18:00:00)."
+
+#: cs-admin-finals.php:88 cs-admin-match.php:89
+msgid "nowhere"
+msgstr "nowhere"
+
+#: cs-admin-finals.php:124
+msgid "Team one added automatically."
+msgstr "Mannschaft 1 automatisch hinzugefügt."
+
+#: cs-admin-finals.php:126
+msgid "Database error, team 1 could not be added automatically."
+msgstr "Datenbankfehler Mannschaft 1 konnte nicht automatisch angelegt werden."
+
+#: cs-admin-finals.php:139
+msgid "Team 2 added automatically."
+msgstr "Mannschaft 2 automatisch hinzugefügt."
+
+#: cs-admin-finals.php:141
+msgid "Database error, team 2 could not be added automatically."
+msgstr "Datenbankfehler Mannschaft 2 konnte nicht automatisch angelegt werden."
+
+#: cs-admin-finals.php:179
+msgid "final match successfully created."
+msgstr "Finalbegegnung erfolgreich angelegt."
+
+#: cs-admin-finals.php:181 cs-admin-finals.php:217 cs-admin-finals.php:231
+#: cs-admin-match.php:134 cs-admin-match.php:156 cs-admin-match.php:173
+#: cs-admin-team.php:134 cs-admin-team.php:159 cs-admin-team.php:173
+#: cs-admin-tippgroup.php:123 cs-admin-tippgroup.php:146
+#: cs-admin-tippgroup.php:161
+msgid "Database error, aborting"
+msgstr "Datenbankfehler; Vorgang abgebrochen"
+
+#: cs-admin-finals.php:215
+msgid "final match successfully saved."
+msgstr "Finalbegegnung erfolgreich gespeichert."
+
+#: cs-admin-finals.php:229
+msgid "final match deleted."
+msgstr "Finalbegegnung gelöscht."
+
+#: cs-admin-finals.php:322
+msgid "final match updated."
+msgstr "Finalbegegnung aktualisiert."
+
+#: cs-admin-finals.php:326 cs-admin-finals.php:351
+msgid "Add final match"
+msgstr "Finalbegegnung hinzufügen"
+
+#: cs-admin-finals.php:335 cs-admin-finals.php:364 cs-admin-match.php:224
+#: cs-admin-match.php:258
+msgid "Team 1"
+msgstr "Mannschaft 1"
+
+#: cs-admin-finals.php:337 cs-admin-finals.php:365 cs-admin-match.php:226
+#: cs-admin-match.php:259
+msgid "Team 2"
+msgstr "Mannschaft 2"
+
+#: cs-admin-finals.php:342 cs-admin-finals.php:367 cs-admin-match.php:230
+#: cs-admin-match.php:261 functions.php:1241 functions.php:1248
+msgid "Date / time"
+msgstr "Datum/Zeit"
+
+#: cs-admin-finals.php:349
+msgid "Save final match"
+msgstr "Finalbegegnung speichern"
+
+#: cs-admin-finals.php:361
+msgid "Final matches"
+msgstr "Finalbegegnungen"
+
+#: cs-admin-finals.php:368 cs-admin-match.php:266 cs-admin-team.php:276
+#: cs-admin-tippgroup.php:228 cs-admin-users.php:307
+msgid "Action"
+msgstr "Aktion"
+
+#: cs-admin-finals.php:392 cs-admin-match.php:290 cs-admin-team.php:300
+#: cs-admin-tippgroup.php:249 cs-admin-users.php:346
+msgid "Update"
+msgstr "Ändern"
+
+#: cs-admin-finals.php:393 cs-admin-match.php:291 cs-admin-team.php:301
+#: cs-admin-tippgroup.php:250 cs-admin-users.php:347
+msgid "Delete"
+msgstr "Löschen"
+
+#: cs-admin-import.php:74 cs-admin-openligadbimport.php:82
+msgid "Data deleted."
+msgstr "Daten gelöscht."
+
+#: cs-admin-import.php:111 cs-admin-import.php:141
+msgid "The record contains the wrong number of values and was not inserted."
+msgstr ""
+"Der Datensatz enthält die falsche Anzahl an Spalten und wurde nicht "
+"eingefügt."
+
+#: cs-admin-import.php:146
+msgid "Record inserted."
+msgstr "Datensatz eingefügt."
+
+#: cs-admin-import.php:148 cs-admin-openligadbimport.php:104
+#: cs-admin-openligadbimport.php:124
+msgid "Database error, record not inserted."
+msgstr "Datenbankfehler. Datensatz wurde nicht eingefügt."
+
+#: cs-admin-import.php:162
+msgid "Import"
+msgstr "Import"
+
+#: cs-admin-import.php:165
+msgid "Select data to import"
+msgstr "Datenimport für"
+
+#: cs-admin-import.php:170
+msgid ""
+"All csv-files must be saved in the directory wp-championship/sql in order to "
+"be used as import file."
+msgstr ""
+"Die CSV-Datei muss im Verzeichnis wp-championship/sql/ abgelegt sein, um sie "
+"als Importdatei zu verwenden."
+
+#: cs-admin-import.php:171
+msgid "Select CSV-File"
+msgstr "CSV-Datei auswählen"
+
+#: cs-admin-import.php:187
+msgid "First row contains column names"
+msgstr "Erste Zeile enthält Feldnamen"
+
+#: cs-admin-import.php:190 cs-admin-openligadbimport.php:167
+msgid "Delete data before import"
+msgstr "Vor dem Import alle vorhandenen Daten löschen"
+
+#: cs-admin-import.php:195 cs-admin-openligadbimport.php:172
+msgid "Start import"
+msgstr "Starte Import"
+
+#: cs-admin-import.php:200 cs-admin-openligadbimport.php:177
+msgid "Import log"
+msgstr "Import Protokoll"
+
+#: cs-admin-labels.php:172 cs-admin-labels.php:183 cs-admin.php:140
+msgid "Settings successfully saved."
+msgstr "Einstellungen erfolgreich gespeichert."
+
+#: cs-admin-labels.php:299
+msgid "wp-championship Web-Labels"
+msgstr "wp-championship Web-Bezeichnungen"
+
+#: cs-admin-labels.php:308 cs-admin-labels.php:417
+msgid "Label column 0 (group)"
+msgstr "Bezeichnung Spalte 0 (Gruppe)"
+
+#: cs-admin-labels.php:310 cs-admin-labels.php:314 cs-admin-labels.php:318
+#: cs-admin-labels.php:321 cs-admin-labels.php:324 cs-admin-labels.php:327
+#: cs-admin-labels.php:330 cs-admin-labels.php:333 cs-admin-labels.php:336
+#: cs-admin-labels.php:353 cs-admin-labels.php:356 cs-admin-labels.php:359
+#: cs-admin-labels.php:362 cs-admin-labels.php:365 cs-admin-labels.php:373
+#: cs-admin-labels.php:376 cs-admin-labels.php:379 cs-admin-labels.php:382
+#: cs-admin-labels.php:385 cs-admin-labels.php:388 cs-admin-labels.php:391
+#: cs-admin-labels.php:419 cs-admin-labels.php:423 cs-admin-labels.php:427
+#: cs-admin-labels.php:430 cs-admin-labels.php:433 cs-admin-labels.php:436
+#: cs-admin-labels.php:439 cs-admin-labels.php:442 cs-admin-labels.php:445
+#: cs-admin-labels.php:462 cs-admin-labels.php:465 cs-admin-labels.php:468
+#: cs-admin-labels.php:471 cs-admin-labels.php:474 cs-admin-labels.php:483
+#: cs-admin-labels.php:486 cs-admin-labels.php:489 cs-admin-labels.php:492
+#: cs-admin-labels.php:495 cs-admin-labels.php:498 cs-admin-labels.php:501
+msgid "hide"
+msgstr "ausgeblendet"
+
+#: cs-admin-labels.php:312 cs-admin-labels.php:421
+msgid "Label column 1 (Match-Id)"
+msgstr "Bezeichnung Spalte 1 (Spiel-Nr.)"
+
+#: cs-admin-labels.php:316 cs-admin-labels.php:425
+msgid "Label column (Icon 1)"
+msgstr "Bezeichnung Spalte 2 (Icon 1)"
+
+#: cs-admin-labels.php:319 cs-admin-labels.php:428
+msgid "Label column 3 (match)"
+msgstr "Bezeichnung Spalte 3 (Begegnung)"
+
+#: cs-admin-labels.php:322 cs-admin-labels.php:431
+msgid "Label column 4 (icon 2)"
+msgstr "Bezeichnung Spalte 4 (Icon 2)"
+
+#: cs-admin-labels.php:325 cs-admin-labels.php:434
+msgid "Label column 5 (location)"
+msgstr "Bezeichnung Spalte 5 (Ort)"
+
+#: cs-admin-labels.php:328 cs-admin-labels.php:437
+msgid "Label column 6 (date/time)"
+msgstr "Bezeichnung Spalte 6 (Datum/Zeit)"
+
+#: cs-admin-labels.php:331 cs-admin-labels.php:440
+msgid "Label column 7 (tip/result)"
+msgstr "Bezeichnung Spalte 7 (Tipp/Ergebnis)"
+
+#: cs-admin-labels.php:334 cs-admin-labels.php:443
+msgid "Label column 8 (points)"
+msgstr "Bezeichnung Spalte 8 (Punkte)"
+
+#: cs-admin-labels.php:338 cs-admin-labels.php:447
+msgid "Default sort order by column"
+msgstr "Standardsortierung nach Spalte"
+
+#: cs-admin-labels.php:349 cs-admin-labels.php:458 cs-admin-stats.php:69
+#: cs-userstats.php:206 functions.php:883 functions.php:894
+msgid "Current score"
+msgstr "Aktueller Punktestand"
+
+#: cs-admin-labels.php:351 cs-admin-labels.php:460
+msgid "Label column 1 (placement)"
+msgstr "Bezeichnung Spalte 1 (Platz)"
+
+#: cs-admin-labels.php:354 cs-admin-labels.php:463
+msgid "Label column 2 (player)"
+msgstr "Bezeichnung Spalte 2 (Spieler)"
+
+#: cs-admin-labels.php:357 cs-admin-labels.php:466
+msgid "Label column 3 (score)"
+msgstr "Bezeichnung Spalte 3 (Punktezahl)"
+
+#: cs-admin-labels.php:360 cs-admin-labels.php:469
+msgid "Label column 4 (tendency)"
+msgstr "Bezeichnung Spalte 4 (Trend)"
+
+#: cs-admin-labels.php:363 cs-admin-labels.php:472
+msgid "Label column 5 (championtip)"
+msgstr "Bezeichnung Spalte 5 (Champion-Tipp)"
+
+#: cs-admin-labels.php:369 cs-admin-labels.php:479 wp-championship.php:224
+msgid "Stats"
+msgstr "Statistiken"
+
+#: cs-admin-labels.php:371 cs-admin-labels.php:481
+msgid "Label column 1 (team)"
+msgstr "Bezeichnung Spalte 1 (Mannschaft)"
+
+#: cs-admin-labels.php:374 cs-admin-labels.php:484
+msgid "Label column 2 (matches)"
+msgstr "Bezeichnung Spalte 2 (Spiele)"
+
+#: cs-admin-labels.php:377 cs-admin-labels.php:487
+msgid "Label column 3 (wins)"
+msgstr "Bezeichnung Spalte 3 (Siege)"
+
+#: cs-admin-labels.php:380 cs-admin-labels.php:490
+msgid "Label column 4 (draw)"
+msgstr "Bezeichnung Spalte 4 (Unentschieden)"
+
+#: cs-admin-labels.php:383 cs-admin-labels.php:493
+msgid "Label column 5 (defeats)"
+msgstr "Bezeichnung Spalte 5 (Niederlagen)"
+
+#: cs-admin-labels.php:386 cs-admin-labels.php:496
+msgid "Label column 6 (goals)"
+msgstr "Bezeichnung Spalte 6 (Tore)"
+
+#: cs-admin-labels.php:389 cs-admin-labels.php:499
+msgid "Label column 7 (points)"
+msgstr "Bezeichnung Spalte 7 (Punkte)"
+
+#: cs-admin-labels.php:393
+msgid "Show all tips in statistic 4 (cs_stats4)"
+msgstr "Zeige alle Tipps in Statistik 4 (cs_stats4)"
+
+#: cs-admin-labels.php:401 cs-admin-labels.php:507 cs-admin.php:492
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: cs-admin-labels.php:408
+msgid "wp-championship XMLRPC-labels"
+msgstr "wp-championship XMLRPC-Bezeichnungen"
+
+#: cs-admin-match.php:107
+msgid "Date and time are both mandatory."
+msgstr "Datum und Uhrzeit der Begegnung müssen gefüllt sein."
+
+#: cs-admin-match.php:132
+msgid "Match successfully added."
+msgstr "Begegnung erfolgreich angelegt."
+
+#: cs-admin-match.php:158
+msgid "Match successfully saved."
+msgstr "Begegnung erfolgreich gespeichert."
+
+#: cs-admin-match.php:171
+msgid "Match deleted."
+msgstr "Begegnung gelöscht."
+
+#: cs-admin-match.php:212
+msgid "Update match"
+msgstr "Begegnung ändern"
+
+#: cs-admin-match.php:216 cs-admin-match.php:248
+msgid "Add Match"
+msgstr "Begegnung hinzufügen"
+
+#: cs-admin-match.php:235 cs-admin-match.php:264 cs-stats.php:78
+#: cs-stats.php:537
+msgid "Match-Day"
+msgstr "Spieltag"
+
+#: cs-admin-match.php:246
+msgid "Save match"
+msgstr "Begegnung speichern"
+
+#: cs-admin-openligadbimport.php:102
+msgid "Teamrecord inserted successfully"
+msgstr "Mannschaft erfolgreich angelegt"
+
+#: cs-admin-openligadbimport.php:122
+msgid "Matchrecord inserted successfully"
+msgstr "Begegnung erfolgreich angelegt"
+
+#: cs-admin-openligadbimport.php:147
+msgid "OpenLigaDB-Import"
+msgstr "OpenLigaDB-Import"
+
+#: cs-admin-openligadbimport.php:151
+msgid ""
+"This feature is experimental. Please backup your match and team data before "
+"trying OpenLigaImport."
+msgstr ""
+"Diese Funktion ist experimentell. Bitte sichern  Sie Ihre Daten bevor Sie "
+"den Datenimport von OpenLigaDB verwenden."
+
+#: cs-admin-openligadbimport.php:153 cs-admin-openligadbimport.php:155
+msgid "Select season"
+msgstr "Saison auswählen"
+
+#: cs-admin-openligadbimport.php:161 cs-admin-openligadbimport.php:163
+msgid "Select league"
+msgstr "Liga auswählen"
+
+#: cs-admin-stats.php:63 cs-stats.php:902 cs-userstats.php:188
+msgid "The championship winner is:"
+msgstr "Der Gewinner des Turniers heißt:"
+
+#: cs-admin-stats.php:74 cs-stats.php:767 cs-stats.php:1494
+msgid "Number of tips"
+msgstr "Anzahl Tipps"
+
+#: cs-admin-stats.php:75
+msgid "Missed tips so far"
+msgstr "Verpasste Tipps"
+
+#: cs-admin-stats.php:76
+msgid "Champion tip"
+msgstr "Champion-Tipp"
+
+#: cs-admin-team.php:102
+msgid "The name of the team can not be empty."
+msgstr "Der Name der Mannschaft darf nicht leer sein."
+
+#: cs-admin-team.php:106
+msgid "The name of the team can not start with a #."
+msgstr "Der Name der Mannschaft darf nicht mit # beginnen."
+
+#: cs-admin-team.php:132
+msgid "Team successfully added."
+msgstr "Mannschaft erfolgreich angelegt."
+
+#: cs-admin-team.php:157
+msgid "Team successfully saved."
+msgstr "Mannschaft erfolgreich gespeichert."
+
+#: cs-admin-team.php:171
+msgid "Team deleted."
+msgstr "Mannschaft gelöscht."
+
+#: cs-admin-team.php:201
+msgid "Update team"
+msgstr "Mannschaft ändern"
+
+#: cs-admin-team.php:205 cs-admin-team.php:260
+msgid "Add team"
+msgstr "Mannschaft hinzufügen"
+
+#: cs-admin-team.php:215 cs-admin-team.php:271 cs-admin-tippgroup.php:198
+#: cs-admin-tippgroup.php:224
+msgid "Shortname"
+msgstr "Shortname"
+
+#: cs-admin-team.php:217 cs-admin-team.php:272 cs-admin-tippgroup.php:200
+#: cs-admin-tippgroup.php:225
+msgid "Symbol / emblem"
+msgstr "Symbol / Wappen"
+
+#: cs-admin-team.php:233
+msgid "preliminary placement"
+msgstr "Platzierung der Vorrunde"
+
+#: cs-admin-team.php:251 cs-admin-team.php:275 cs-admin-tippgroup.php:204
+#: cs-admin-tippgroup.php:227 cs-admin-users.php:275 cs-admin-users.php:306
+#: cs-userstats.php:296
+msgid "Penalty"
+msgstr "Strafpunkte"
+
+#: cs-admin-team.php:258
+msgid "Save team"
+msgstr "Mannschaft speichern"
+
+#: cs-admin-team.php:274
+msgid "placement"
+msgstr "Platzierung"
+
+#: cs-admin-tippgroup.php:86
+msgid "The name of the tip group can not be empty."
+msgstr "Der Name der Tippgruppe darf nicht leer sein."
+
+#: cs-admin-tippgroup.php:89
+msgid "The name of the tip group can not start with a #."
+msgstr "Der Name der Tippgruppe darf nicht mit # beginnen."
+
+#: cs-admin-tippgroup.php:121
+msgid "created tip group."
+msgstr "Tippgruppe erfolgreich angelegt."
+
+#: cs-admin-tippgroup.php:144
+msgid "Tip group successfully saved."
+msgstr "Tippgruppe erfolgreich gespeichert."
+
+#: cs-admin-tippgroup.php:159
+msgid "Tip group deleted."
+msgstr "Tippgruppe gelöscht."
+
+#: cs-admin-tippgroup.php:186
+msgid "Change tip group"
+msgstr "Tippgruppe ändern"
+
+#: cs-admin-tippgroup.php:190 cs-admin-tippgroup.php:213
+msgid "Add tip group"
+msgstr "Tippgruppe hinzufügen"
+
+#: cs-admin-tippgroup.php:211
+msgid "Save tip group"
+msgstr "Tippgruppe speichern"
+
+#: cs-admin-tippgroup.php:220 wp-championship.php:232
+msgid "Tip groups"
+msgstr "Tippgruppen"
+
+#: cs-admin-tippgroup.php:226
+msgid "Number of players"
+msgstr "Anzahl Mitspieler"
+
+#: cs-admin-users.php:123
+msgid "Added player."
+msgstr "Mitspieler erfolgreich angelegt."
+
+#: cs-admin-users.php:125 cs-admin-users.php:156 cs-admin-users.php:169
+msgid "Database error, aborting."
+msgstr "Datenbankfehler, Vorgang abgebrochen."
+
+#: cs-admin-users.php:128
+msgid "Player already in the database."
+msgstr "Mitspieler bereits vorhanden."
+
+#: cs-admin-users.php:154
+msgid "Player successfully saved."
+msgstr "Mitspieler erfolgreich gespeichert."
+
+#: cs-admin-users.php:167
+msgid "Player deleted."
+msgstr "Mitspieler gelöscht."
+
+#: cs-admin-users.php:239
+msgid "Update player"
+msgstr "Mitspieler ändern"
+
+#: cs-admin-users.php:243 cs-admin-users.php:284
+msgid "Add player"
+msgstr "Mitspieler hinzufügen"
+
+#: cs-admin-users.php:254 cs-admin-users.php:299 cs-usertipp.php:774
+msgid "Hide finished matches"
+msgstr "Beendete Spiele verbergen"
+
+#: cs-admin-users.php:256 cs-admin-users.php:300 cs-usertipp.php:778
+msgid "Mailservice"
+msgstr "Mailservice"
+
+#: cs-admin-users.php:258 cs-admin-users.php:301 cs-usertipp.php:780
+msgid "Mailconfirmation"
+msgstr "Mailbestätigung"
+
+#: cs-admin-users.php:261 cs-admin-users.php:302 cs-usertipp.php:781
+msgid "Mailformat"
+msgstr "Mailformat"
+
+#: cs-admin-users.php:264 cs-admin-users.php:298
+msgid "Guessing-game admin"
+msgstr "Tippspiel-Admin"
+
+#: cs-admin-users.php:266 cs-admin-users.php:303
+msgid "Proxy"
+msgstr "Stellvertreter"
+
+#: cs-admin-users.php:268 cs-admin-users.php:304 cs-usertipp.php:824
+msgid "Winner-tip"
+msgstr "Sieger-Tipp"
+
+#: cs-admin-users.php:271 cs-admin-users.php:305 cs-stats.php:758
+#: cs-usertipp.php:785 functions.php:1010 functions.php:1017
+msgid "Tip Group"
+msgstr "Tippgruppe"
+
+#: cs-admin-users.php:282
+msgid "Save player"
+msgstr "Mitspieler speichern"
+
+#: cs-admin.php:83
+msgid "Please fill in all fields."
+msgstr "Bitte alle Felder füllen."
+
+#: cs-admin.php:151
+msgid "All tips deleted"
+msgstr "Alle Tipps wurden gelöscht"
+
+#: cs-admin.php:167
+msgid "All results deleted"
+msgstr "Alle Ergebnisse wurden gelöscht"
+
+#: cs-admin.php:175
+msgid "All wp-championship tables deleted"
+msgstr "Alle wp-championship Tabellen wurden gelöscht"
+
+#: cs-admin.php:182
+msgid "Emails were sent."
+msgstr "Die Mails wurden verschickt."
+
+#: cs-admin.php:190
+msgid "Recalculating is done."
+msgstr "Die Neuberechnung wurde durchgeführt."
+
+#: cs-admin.php:231
+msgid "wp-championship settings"
+msgstr "wp-championship Einstellungen"
+
+#: cs-admin.php:236 cs-admin.php:238
+msgid "OpenLigaDB Import"
+msgstr "OpenLigaDB Import"
+
+#: cs-admin.php:238
+msgid "Class SOAPClient not found"
+msgstr "Class SOAPClient konnte nicht gefunden werden"
+
+#: cs-admin.php:240
+msgid "Data Import"
+msgstr "Datenimport"
+
+#: cs-admin.php:241
+msgid "Data Export"
+msgstr "Datenexport"
+
+#: cs-admin.php:246
+msgid "Number of groups in preliminary"
+msgstr "Anzahl Gruppen Vorrunde"
+
+#: cs-admin.php:260
+msgid "Recalculate points and placement?"
+msgstr "Platzierung und Punkte neu berechnen?"
+
+#: cs-admin.php:263
+msgid "Recalculate"
+msgstr "Neuberechnung durchführen"
+
+#: cs-admin.php:265
+msgid "Points for the winner of a match"
+msgstr "Punkt für den Gewinner einer Begegnung"
+
+#: cs-admin.php:268
+msgid "Send emails once?"
+msgstr "Mailservice einmal auslösen?"
+
+#: cs-admin.php:271
+msgid "Send emails"
+msgstr "Mailservice auslösen"
+
+#: cs-admin.php:273
+msgid "Points for the looser of a match"
+msgstr "Punkte für den Verlierer einer Begegnung"
+
+#: cs-admin.php:276
+msgid "Delete all tips?"
+msgstr "Alle Tipps löschen?"
+
+#: cs-admin.php:279
+msgid "Delete tips"
+msgstr "Tipps löschen"
+
+#: cs-admin.php:281
+msgid "Points for draw"
+msgstr "Punkte bei Unentschieden"
+
+#: cs-admin.php:284
+msgid "Delete all results?"
+msgstr "Alle Ergebnisse löschen?"
+
+#: cs-admin.php:287
+msgid "Delete results"
+msgstr "Ergebnisse löschen"
+
+#: cs-admin.php:289
+msgid "Number of teams per group qualifying for the finals"
+msgstr "Anzahl der Teams pro Gruppe, die sich für die Finalrunde qualifizieren"
+
+#: cs-admin.php:292
+msgid "Remove all wp-chmpionship tables from database?"
+msgstr "Alle Tabellen aus der Datenbank entfernen?"
+
+#: cs-admin.php:295
+msgid "Remove database tables"
+msgstr "Tabellen entfernen"
+
+#: cs-admin.php:297
+msgid "Points for exact tip"
+msgstr "Punkt für korrekten Tipp"
+
+#: cs-admin.php:300
+msgid "Add new users automatically"
+msgstr "Neue User zum Tippspiel hinzufügen"
+
+#: cs-admin.php:308
+msgid "Points for correct tendency"
+msgstr "Punkt bei richtiger Tendenz"
+
+#: cs-admin.php:311
+msgid "Deactivate proxy feature"
+msgstr "Deaktiveren der Stellvertreterfunktion"
+
+#: cs-admin.php:319
+msgid "Points for correct tendency and goal difference"
+msgstr "Punkt bei richtiger Tendenz und richtiger Tordifferenz"
+
+#: cs-admin.php:322
+msgid "tournament mode"
+msgstr "Turniermodus"
+
+#: cs-admin.php:329
+msgid "default"
+msgstr "Standard"
+
+#: cs-admin.php:335
+msgid "German Bundesliga"
+msgstr "Deutsche Bundesliga"
+
+#: cs-admin.php:338
+msgid "Points for the correct championship winner tip"
+msgstr "Punkte für richtigen Sieger-Tipp"
+
+#: cs-admin.php:341
+msgid "Reminder mail service"
+msgstr "Tipp-Erinnerung per Mailservice"
+
+#: cs-admin.php:349
+msgid "Points for one-sided correct tip"
+msgstr "Punkte für einseitig richtigen Tipp"
+
+#: cs-admin.php:351
+msgid "Onesided tip strikes "
+msgstr "Einseitiger Tipp zieht "
+
+#: cs-admin.php:357
+msgid "always"
+msgstr "immer"
+
+#: cs-admin.php:358
+msgid "only with tendency"
+msgstr "nur mit Tendenz"
+
+#: cs-admin.php:359
+msgid "only without tendency"
+msgstr "nur ohne Tendenz"
+
+#: cs-admin.php:365
+msgid "hours till the match starts (tip-reminder)."
+msgstr "Stunden bis zum Spiel (Tipp-Erinnerung)"
+
+#: cs-admin.php:368
+msgid "Threshold for sum of goals"
+msgstr "Schwellwert für Summe der Tore"
+
+#: cs-admin.php:370
+msgid "no separate goal tip"
+msgstr "kein separater Tortipp"
+
+#: cs-admin.php:377
+msgid "only draw strikes"
+msgstr "nur Gleichheit zieht"
+
+#: cs-admin.php:386
+msgid "Recalculate placement tendency"
+msgstr "Platzierungstrend berechnen"
+
+#: cs-admin.php:410
+msgid "Championship winner"
+msgstr "Sieger des Turniers"
+
+#: cs-admin.php:413
+msgid "Points for sum of goals is greater than threshold"
+msgstr "Punkte für Summe der Tore größer als Schwellwert"
+
+#: cs-admin.php:416
+msgid "Activate floating link"
+msgstr "Floating Link einschalten"
+
+#: cs-admin.php:425
+msgid "Joker - List of Match-Ids to get doubled points for"
+msgstr "Joker - Liste der Spiele für die es doppelte Punkte gibt"
+
+#: cs-admin.php:426
+msgid "Leave empty to disable, comma separated list of Match-Ids"
+msgstr "Komma-getrennte Liste der Spiel-Nr., leer lassen deaktiviert die Joker"
+
+#: cs-admin.php:430
+msgid "Show Tip-Hints in tip form"
+msgstr "Tipphilfen auf Tippseite einblenden"
+
+#: cs-admin.php:439
+msgid "Joker - Number of Jokers each player can use"
+msgstr "Joker - Anzahl der Joker pro Mitspieler"
+
+#: cs-admin.php:443
+msgid "Number of days to display"
+msgstr "Anzahl der angezeigten Spieltage"
+
+#: cs-admin.php:448
+msgid "Lock preliminary tips"
+msgstr "Vorrunden-Tipps sperren"
+
+#: cs-admin.php:456
+msgid "Use tip groups:"
+msgstr "Verwende Tippgruppen:"
+
+#: cs-admin.php:464
+msgid "Activate XMLRPC extension"
+msgstr "Aktivieren der XMLRPC Erweiterung"
+
+#: cs-admin.php:466
+msgid "Show tips of all players"
+msgstr "Tipps aller Spieler anzeigen"
+
+#: cs-admin.php:473
+msgid "Use short name"
+msgstr "Kurzbezeichnung verwenden"
+
+#: cs-admin.php:487
+msgid "News to show via XMLRPC"
+msgstr "News über XMLRPC abrufbar"
+
+#: cs-groupstats.php:47 cs-matchstats.php:46 cs-stats.php:50 cs-stats.php:121
+#: cs-stats.php:219 cs-stats.php:350 cs-stats.php:509 cs-stats.php:581
+#: cs-stats.php:647 cs-stats.php:714 cs-stats.php:881 cs-userstats.php:51
+msgid "To attend the guessing game, you need an account at this website"
+msgstr "Um am Tippspiel teilzunehmen benötigst du ein Konto auf dieser Website"
+
+#: cs-groupstats.php:89
+msgid "Goals"
+msgstr "Tore"
+
+#: cs-matchstats.php:64 cs-stats.php:1416
+msgid "Date"
+msgstr "Datum"
+
+#: cs-stats.php:76 cs-stats.php:535
+msgid "Day of event statistic"
+msgstr "Spieltagsübersicht"
+
+#: cs-stats.php:181
+msgid "Tip - frequency of occurrence"
+msgstr "Tipph&auml;ufigkeit"
+
+#: cs-stats.php:184 cs-stats.php:285 cs-stats.php:1192
+msgid "No tips entered yet."
+msgstr "Es sind noch keine Tipps abgegeben worden."
+
+#: cs-stats.php:282
+msgid "Tip - frequency in detail"
+msgstr "Tipph&auml;ufigkeit im Detail"
+
+#: cs-stats.php:464
+msgid "Player-Tips"
+msgstr "Spielertipps"
+
+#: cs-stats.php:477 functions.php:1239 functions.php:1246
+msgid "Match"
+msgstr "Spiel"
+
+#: cs-stats.php:607
+msgid "Team-Stats"
+msgstr "Mannschaftsstatistik"
+
+#: cs-stats.php:673
+msgid "Tiper of the month"
+msgstr "Tipper des Monats"
+
+#: cs-stats.php:675
+msgid "Month"
+msgstr "Monat"
+
+#: cs-stats.php:764 functions.php:1012 functions.php:1017
+msgid "Average"
+msgstr "Durchschnitt"
+
+#: cs-stats.php:770
+msgid "Current scoring of the tip groups"
+msgstr "Aktueller Punktestand Tippgruppen"
+
+#: cs-stats.php:774
+msgid "Please activate tippgroups to use this statistic."
+msgstr "Bitte aktiviere Tippgruppen, um diese Statistik anzuzeigen."
+
+#: cs-stats.php:794
+msgid "You are member of tippgroup"
+msgstr "Du bist in Tippgruppe"
+
+#: cs-stats.php:794 cs-usertipp.php:731
+msgid "points and your current rank is"
+msgstr "Punkte und bist aktuell auf Platz"
+
+#: cs-stats.php:885
+msgid "Champion-Tip Score"
+msgstr "Champion-Tipp"
+
+#: cs-stats.php:895
+msgid "The tournament has not started yet."
+msgstr "Das Turnier hat noch nicht begonnen."
+
+#: cs-stats.php:904
+msgid "The winner of the championship has not been determined yet."
+msgstr "Der Sieger des Turniers  steht noch nicht fest."
+
+#: cs-stats.php:910 cs-userstats.php:137 cs-userstats.php:174
+msgid "Champion-Tip"
+msgstr "Champion-Tipp"
+
+#: cs-stats.php:1025
+msgid "Tips"
+msgstr "Tipps"
+
+#: cs-stats.php:1196
+msgid "The matches have not started yet."
+msgstr "Die getippten Spiele haben noch nicht begonnen."
+
+#: cs-stats.php:1490
+msgid "No results found."
+msgstr "Keine Ergebnisse gefunden."
+
+#: cs-stats.php:1493
+msgid "Total points"
+msgstr "Gesamtpunkte"
+
+#: cs-stats.php:1494
+msgid "Points (month)"
+msgstr "Punkte (Monat)"
+
+#: cs-userstats.php:85 cs-usertipp.php:148
+msgid "Welcome "
+msgstr "Willkommen "
+
+#: cs-userstats.php:86
+msgid ""
+"this page displays the current scores of the tournament and of the guessing "
+"game."
+msgstr ""
+"auf dieser Seite siehst du den aktuellen Stand des Turniers und des "
+"Tippspiels."
+
+#: cs-userstats.php:182 cs-usertipp.php:712
+msgid "You are a guessing game admin."
+msgstr "Du bist Tippspiel-Administrator."
+
+#: cs-usertipp.php:70
+msgid "To attend the guessing game, you need an account at this website."
+msgstr ""
+"Um am Tippspiel teilzunehmen benötigst du ein Konto auf dieser Website."
+
+#: cs-usertipp.php:108
+msgid "You are a proxy for "
+msgstr "Du bist als Stellvertreter aktiv für "
+
+#: cs-usertipp.php:109
+msgid "To update your own tips again, please reload this page."
+msgstr ""
+"Um wieder Deine eigenen Tipps zu bearbeiten, rufe diese Seite einfach neu "
+"auf."
+
+#: cs-usertipp.php:149
+msgid ""
+"this page shows you your tip overview, you can place new tips or update your "
+"tips until the match starts and change your personal settings."
+msgstr ""
+"auf dieser Seite siehst du deine Tippspielübersicht, kannst neue Tipps "
+"abgeben oder abgegebene Tipps bis Spielbeginn verändern, sowie deine "
+"persönlichen Einstellungen anpassen."
+
+#: cs-usertipp.php:154
+msgid "You are a proxy for:"
+msgstr "Du bist als Stellvertreter eingetragen worden von:"
+
+#: cs-usertipp.php:174 cs-usertipp.php:760 cs-usertipp.php:1058
+#: cs-usertipp.php:1285
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: cs-usertipp.php:277
+msgid "The champion tip can not be changed anymore."
+msgstr "Championtipp kann nicht mehr verändert werden."
+
+#: cs-usertipp.php:296
+msgid "The jokers can not be changed anymore."
+msgstr "Die Joker können nicht mehr verändert werden."
+
+#: cs-usertipp.php:306
+msgid "The tip group can not be changed anymore."
+msgstr "Tippgruppe kann nicht mehr verändert werden."
+
+#: cs-usertipp.php:328
+msgid "Invalid tip or value:"
+msgstr "Ungueltiger Tipp, Wert:"
+
+#: cs-usertipp.php:344
+#, php-format
+msgid "Match No. %d has alread stareted."
+msgstr "Das Spiel %d hat bereits begonnen."
+
+#: cs-usertipp.php:344
+msgid "The tip can not be changed anymore."
+msgstr "Der Tipp kann nicht mehr angenommen werden."
+
+#: cs-usertipp.php:352
+msgid "Sum of goals must be greater than Threshold"
+msgstr "Die Summe der Tore muss größer als der Schwellwert sein"
+
+#: cs-usertipp.php:367
+msgid "the tip is incomplete or there is an invalid entry."
+msgstr "Es fehlt eine Seite des Tipps oder eine Eingabe ist fehlerhaft."
+
+#: cs-usertipp.php:431
+msgid "Tips successfully saved."
+msgstr "Die Tipps wurden erfolgreich gespeichert."
+
+#: cs-usertipp.php:452
+msgid "Invalid result, value:"
+msgstr "Ungueltiges Ergebnis, Wert:"
+
+#: cs-usertipp.php:471
+msgid "the result is incomplete or there is an invalid entry."
+msgstr "Es fehlt eine Seite des Ergebnisses oder eine Eingabe ist fehlerhaft."
+
+#: cs-usertipp.php:532
+msgid "Results successfully saved."
+msgstr "Die Ergebnisse wurden erfolgreich gespeichert."
+
+#: cs-usertipp.php:574
+msgid "Go Top"
+msgstr "Nach oben"
+
+#: cs-usertipp.php:647
+msgid "Tip<br />Result"
+msgstr "Tipp<br/>Ergebnis"
+
+#: cs-usertipp.php:653
+msgid "Match-Id"
+msgstr "Spiel-Nr"
+
+#: cs-usertipp.php:731
+msgid "You have"
+msgstr "Du hast insgesamt"
+
+#: cs-usertipp.php:739
+msgid "You got a penalty."
+msgstr "Für Dich wurde eine Punktekorrktur hinterlegt."
+
+#: cs-usertipp.php:763
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: cs-usertipp.php:768
+msgid "Proxy:"
+msgstr "Stellvertreter:"
+
+#: cs-usertipp.php:804
+msgid "Joker - Match-IDs"
+msgstr "Joker - Spiel-Nr"
+
+#: cs-usertipp.php:917 cs-usertipp.php:1086
+msgid "Sum of<br />goals"
+msgstr "Summe<br />Tore"
+
+#: functions.php:706
+msgid "Winner"
+msgstr "Gewinner"
+
+#: functions.php:706
+msgid "Looser"
+msgstr "Verlierer"
+
+#: functions.php:708
+msgid "Group "
+msgstr "Gruppe "
+
+#: functions.php:882 functions.php:893 functions.php:1006 functions.php:1015
+#: functions.php:1162 functions.php:1176 functions.php:1236 functions.php:1244
+msgid "Guessing game mail service"
+msgstr "Tippspiel Mailservice"
+
+#: functions.php:917
+msgid "rising"
+msgstr "steigend"
+
+#: functions.php:920
+msgid "falling"
+msgstr "fallend"
+
+#: functions.php:923
+msgid "constant"
+msgstr "konstant"
+
+#: functions.php:969 functions.php:971 functions.php:1065 functions.php:1067
+msgid "the email to "
+msgstr "Die email an "
+
+#: functions.php:969 functions.php:1065 functions.php:1192 functions.php:1305
+msgid " was sent."
+msgstr " wurde versendet."
+
+#: functions.php:971 functions.php:1067 functions.php:1194 functions.php:1307
+msgid " could not be sent"
+msgstr " konnte nicht versendet werden"
+
+#: functions.php:1007 functions.php:1016
+msgid "Current score of the tip groups"
+msgstr "Aktueller Punktestand der Tippgruppen"
+
+#: functions.php:1163 functions.php:1177
+msgid ""
+"Would you like to tip? The following games are starting soon and at least "
+"one tip is missing: "
+msgstr ""
+"Möchtest Du noch tippen? Die folgenden Spiele beginnen bald und es fehlt "
+"mindestens ein Tipp von Dir. "
+
+#: functions.php:1192 functions.php:1194
+msgid "The email reminder to "
+msgstr "Die Erinnerungsemail an "
+
+#: functions.php:1237 functions.php:1245
+msgid "Tip confirmation"
+msgstr "Tippbestätigung"
+
+#: functions.php:1272 functions.php:1275
+msgid "n/a"
+msgstr "n/a"
+
+#: functions.php:1305 functions.php:1307
+msgid "The mail confirmation to "
+msgstr "Die Bestätigungsemail an "
+
+#: functions.php:1625
+msgid ""
+"If you are looking for instructions or help on wp-championship, please use "
+"the following resources. If you are stuck you can always write an email to:"
+msgstr ""
+"Die folgenden Ressourcen geben Hilfestellung zu wp-championship. Bei Fragen "
+"oder Problemen freue ich mich über eine email an:"
+
+#: functions.php:1631
+msgid "English Manual"
+msgstr "Englisches Handbuch"
+
+#: functions.php:1635
+msgid "German Manual"
+msgstr "Deutsches Handbuch"
+
+#: functions.php:1639
+msgid "Demo-Site"
+msgstr "Demo-Seite"
+
+#: functions.php:1643
+msgid "wp-championship on WordPress.org"
+msgstr "wp-championship auf WordPress.org"
+
+#: functions.php:1647
+msgid "German wp-championship site"
+msgstr "Deutsche wp-championship Seite"
+
+#: functions.php:1651
+msgid "Changelog"
+msgstr "Änderungshistorie"
+
+#: functions.php:1655
+msgid "Links open in a new windows/tab."
+msgstr "Die Verweise öffnen ein neues Fenster/Tab."
+
+#: functions.php:1664
+msgid "wp-championship Help"
+msgstr "wp-championship Hilfe"
+
+#: wp-championship.php:207 wp-championship.php:236
+msgid "Guessing-game"
+msgstr "Tippspiel"
+
+#: wp-championship.php:211
+msgid "wp-championship teams"
+msgstr "wp-championship Teams"
+
+#: wp-championship.php:215
+msgid "wp-championship maches"
+msgstr "wp-championship Matches"
+
+#: wp-championship.php:218
+msgid "wp-championship finals"
+msgstr "wp-championship Finals"
+
+#: wp-championship.php:221
+msgid "wp-championship users"
+msgstr "wp-championship Users"
+
+#: wp-championship.php:224
+msgid "wp-championship stats"
+msgstr "wp-championship Stats"
+
+#: wp-championship.php:227
+msgid "wp-championship labels"
+msgstr "wp-championship Bezeichungen"
+
+#: wp-championship.php:227
+msgid "Labels"
+msgstr "Bezeichnungen"
+
+#: wp-championship.php:232
+msgid "wp-championship tip groups"
+msgstr "wp-championship Tippgruppen"
+
+#~ msgid " Ignoriert."
+#~ msgstr " ignored."
+
+#~ msgid "Select sport..."
+#~ msgstr "Sportart wählen..."
+
+#~ msgid "Select league..."
+#~ msgstr "Liga wählen..."
+
+#~ msgid "Mailreminder"
+#~ msgstr "Mailerinnerung"
+
+#~ msgid "Top of page"
+#~ msgstr "Zum Seitenanfang"
+
+#~ msgid "Mailreceipt"
+#~ msgstr "Mailreceipt"
